@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>false</active>
+        <app_config display_value="Case Management System  Portal Config">e7a5d9db47066110f2895882e36d43ef</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Submit Request">a5d7119f47066110f2895882e36d4398</macroponent>
+        <macroponent_config>{
+  "views" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "selectedTabIndex" : {
+    "type" : "JSON_LITERAL",
+    "value" : 0
+  },
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config>
+        <name>Submit Request</name>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Landing Page">f7a51ddb9a0661105353bb000f08983c</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-12 06:54:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fdd7119f47066110f2895882e36d439e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Submit Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_update_name>sys_ux_screen_fdd7119f47066110f2895882e36d439e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 08:16:28</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=fdd7119f47066110f2895882e36d439e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</application>
+        <file_path/>
+        <instance_id>cb0a41cddbe16d504d2bac44d4961989</instance_id>
+        <instance_name>dev163237</instance_name>
+        <name>sys_ux_screen_fdd7119f47066110f2895882e36d439e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>false</active><app_config display_value="Case Management System  Portal Config">e7a5d9db47066110f2895882e36d43ef</app_config><description/><event_mappings>[ ]</event_mappings><macroponent display_value="Submit Request">a5d7119f47066110f2895882e36d4398</macroponent><macroponent_config>{
+  "views" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "selectedTabIndex" : {
+    "type" : "JSON_LITERAL",
+    "value" : 0
+  },
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config><name>Submit Request</name><order>0</order><parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Landing Page">f7a51ddb9a0661105353bb000f08983c</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-12 06:54:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fdd7119f47066110f2895882e36d439e</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Submit Request</sys_name><sys_overrides/><sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package><sys_policy/><sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope><sys_update_name>sys_ux_screen_fdd7119f47066110f2895882e36d439e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-12 08:16:28</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=fdd7119f47066110f2895882e36d439e"/></record_update>]]></payload>
+        <payload_hash>-1602404475</payload_hash>
+        <record_name>Submit Request</record_name>
+        <reverted_from/>
+        <source>baac01f01b82a110bd698489cc4bcbc3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-12 08:16:29</sys_created_on>
+        <sys_id>277aed1347866110f2895882e36d43a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18774899f540000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 08:16:29</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>6f7aed131d8661107f7dd4fa727a1ea2</update_guid>
+        <update_guid_history>6f7aed131d8661107f7dd4fa727a1ea2:-1602404475,2fbb11d37f4661106accef18ad32934b:-1067834482,31d7159f60066110e6186cf4827448c2:-2081341356</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-12 08:28:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>a561426175174dce954e17ce45bca871</sys_id>
+        <sys_metadata>fdd7119f47066110f2895882e36d439e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit Request</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_scope_delete display_value="">041178da0e8f4478806ef0e463979040</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_fdd7119f47066110f2895882e36d439e</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_fdd7119f47066110f2895882e36d439e">277aed1347866110f2895882e36d43a3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 08:28:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

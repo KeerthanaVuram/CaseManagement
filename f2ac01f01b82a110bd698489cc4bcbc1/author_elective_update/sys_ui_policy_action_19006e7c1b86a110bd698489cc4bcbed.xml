@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>days</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-04 17:45:32</sys_created_on>
+        <sys_id>19006e7c1b86a110bd698489cc4bcbed</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>days</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_update_name>sys_ui_policy_action_19006e7c1b86a110bd698489cc4bcbed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-04 17:46:08</sys_updated_on>
+        <table>x_1013585_cms_request_details</table>
+        <ui_policy display_value="When recurrence is true">d5006e7c1b86a110bd698489cc4bcbe8</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</application>
+        <file_path/>
+        <instance_id>cb0a41cddbe16d504d2bac44d4961989</instance_id>
+        <instance_name>dev163237</instance_name>
+        <name>sys_ui_policy_action_19006e7c1b86a110bd698489cc4bcbed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>true</cleared><disabled>ignore</disabled><field>days</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-04 17:45:32</sys_created_on><sys_id>19006e7c1b86a110bd698489cc4bcbed</sys_id><sys_mod_count>1</sys_mod_count><sys_name>days</sys_name><sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package><sys_policy/><sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope><sys_update_name>sys_ui_policy_action_19006e7c1b86a110bd698489cc4bcbed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-04 17:46:08</sys_updated_on><table>x_1013585_cms_request_details</table><ui_policy display_value="When recurrence is true">d5006e7c1b86a110bd698489cc4bcbe8</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1329059415</payload_hash>
+        <record_name>days</record_name>
+        <reverted_from/>
+        <source>baac01f01b82a110bd698489cc4bcbc3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-04 17:46:09</sys_created_on>
+        <sys_id>de20ee7c1b86a110bd698489cc4bcbeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1874d604af50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-04 17:46:09</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>1a20ee7c8a86a110cb904710cdbf36eb</update_guid>
+        <update_guid_history>1a20ee7c8a86a110cb904710cdbf36eb:1329059415,15006e7c9286a110b8b3ee9ee01e18ef:-102425392</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-04 17:47:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>1a06a0bfb09148649b53c7e00a14b269</sys_id>
+        <sys_metadata>19006e7c1b86a110bd698489cc4bcbed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>days</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_parent display_value="When recurrence is true">d5006e7c1b86a110bd698489cc4bcbe8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_scope_delete display_value="">041178da0e8f4478806ef0e463979040</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_19006e7c1b86a110bd698489cc4bcbed</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_19006e7c1b86a110bd698489cc4bcbed">de20ee7c1b86a110bd698489cc4bcbeb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-04 17:47:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Get Task">018bd89f47962110f2895882e36d435c</dataset>
+        <order/>
+        <predicate_bundle display_value="approve-request">93ecd01347d62110f2895882e36d43a9</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-24 12:54:13</sys_created_on>
+        <sys_id>852dd01347d62110f2895882e36d4387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_852dd01347d62110f2895882e36d4387</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 12:54:13</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

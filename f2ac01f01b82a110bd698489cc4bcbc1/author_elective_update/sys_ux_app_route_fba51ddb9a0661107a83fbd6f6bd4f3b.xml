@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Case Management System  Portal Config">e7a5d9db47066110f2895882e36d43ef</app_config>
+        <description/>
+        <extension_point/>
+        <fields>searchContextConfigId</fields>
+        <icon/>
+        <name>Search Page</name>
+        <optional_parameters>searchTerm</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>search</route_type>
+        <screen_type display_value="Search Page">ffa51ddbe70661104f51aa4b3af7493b</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-04-12 06:45:36</sys_created_on>
+        <sys_id>fba51ddb9a0661107a83fbd6f6bd4f3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search Page</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_update_name>sys_ux_app_route_fba51ddb9a0661107a83fbd6f6bd4f3b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-04-12 06:45:36</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</application>
+        <file_path/>
+        <instance_id>cb0a41cddbe16d504d2bac44d4961989</instance_id>
+        <instance_name>dev163237</instance_name>
+        <name>sys_ux_app_route_fba51ddb9a0661107a83fbd6f6bd4f3b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Case Management System  Portal Config">e7a5d9db47066110f2895882e36d43ef</app_config><description/><extension_point/><fields>searchContextConfigId</fields><icon/><name>Search Page</name><optional_parameters>searchTerm</optional_parameters><order>0</order><parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent><parent_macroponent_composition_element_id/><route_type>search</route_type><screen_type display_value="Search Page">ffa51ddbe70661104f51aa4b3af7493b</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-04-12 06:45:36</sys_created_on><sys_id>fba51ddb9a0661107a83fbd6f6bd4f3b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Search Page</sys_name><sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package><sys_policy/><sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope><sys_update_name>sys_ux_app_route_fba51ddb9a0661107a83fbd6f6bd4f3b</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-04-12 06:45:36</sys_updated_on></sys_ux_app_route></record_update>]]></payload>
+        <payload_hash>152144782</payload_hash>
+        <record_name>Search Page</record_name>
+        <reverted_from/>
+        <source>c7a3e1011b2121105a7c8489cc4bcb08</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-03-11 11:28:58</sys_created_on>
+        <sys_id>a6dd2d1747866110f2895882e36d43ea</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>186d06e58900000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX App Route</type>
+        <update_guid>66dd2d1734866110c575f612454246ea</update_guid>
+        <update_guid_history>66dd2d1734866110c575f612454246ea:152144782</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-12 08:31:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>1ff584e3d0dc4dd09475b1c6dc6a5010</sys_id>
+        <sys_metadata>fba51ddb9a0661107a83fbd6f6bd4f3b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search Page</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_scope_delete display_value="">041178da0e8f4478806ef0e463979040</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_fba51ddb9a0661107a83fbd6f6bd4f3b</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_fba51ddb9a0661107a83fbd6f6bd4f3b">a6dd2d1747866110f2895882e36d43ea</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 08:31:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

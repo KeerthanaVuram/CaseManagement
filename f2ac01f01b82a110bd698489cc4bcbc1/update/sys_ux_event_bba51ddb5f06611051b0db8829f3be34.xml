@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>MODAL_SELECTED_RELAY_77a51ddb5d06611063a050b463be8c3e</event_name>
+        <interfaces/>
+        <label>Toggle Modal Relay</label>
+        <props>[{"name":"modalId","label":"Modal","fieldType":"string","interfaceApiName":"global.modal","valueType":"string"},{"name":"showModal","label":"Show Modal","fieldType":"boolean","valueType":"string"},{"name":"displayOptions","label":"Modal display options","fieldType":"json","valueType":"string"}]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-04-12 06:45:34</sys_created_on>
+        <sys_id>bba51ddb5f06611051b0db8829f3be34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Toggle Modal Relay</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_update_name>sys_ux_event_bba51ddb5f06611051b0db8829f3be34</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-04-12 06:45:34</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=bba51ddb5f06611051b0db8829f3be34"/>
+</record_update>

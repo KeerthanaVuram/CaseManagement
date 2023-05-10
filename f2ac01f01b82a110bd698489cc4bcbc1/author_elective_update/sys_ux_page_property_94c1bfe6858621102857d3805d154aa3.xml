@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>globalSearchDataConfigId</name>
+        <page display_value="Case Management System">94c1bfe67e86211020292e99e0e6a2a0</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-10 10:12:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>94c1bfe6858621102857d3805d154aa3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_update_name>sys_ux_page_property_94c1bfe6858621102857d3805d154aa3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-10 10:12:05</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1013585_cms.94c1bfe67e86211020292e99e0e6a2a0.root.globalSearchDataConfigId</unique_name>
+        <value>65a1e66eb5422110220466c93f21e65d</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=94c1bfe6858621102857d3805d154aa3"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</application>
+        <file_path/>
+        <instance_id>cb0a41cddbe16d504d2bac44d4961989</instance_id>
+        <instance_name>dev163237</instance_name>
+        <name>sys_ux_page_property_94c1bfe6858621102857d3805d154aa3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>globalSearchDataConfigId</name><page display_value="Case Management System">94c1bfe67e86211020292e99e0e6a2a0</page><required_translations>[]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-10 10:12:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>94c1bfe6858621102857d3805d154aa3</sys_id><sys_mod_count>1</sys_mod_count><sys_name>globalSearchDataConfigId</sys_name><sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package><sys_policy/><sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope><sys_update_name>sys_ux_page_property_94c1bfe6858621102857d3805d154aa3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-10 10:12:05</sys_updated_on><type>string</type><unique_name>x_1013585_cms.94c1bfe67e86211020292e99e0e6a2a0.root.globalSearchDataConfigId</unique_name><value>65a1e66eb5422110220466c93f21e65d</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=94c1bfe6858621102857d3805d154aa3"/></record_update>]]></payload>
+        <payload_hash>-145380265</payload_hash>
+        <record_name>globalSearchDataConfigId</record_name>
+        <reverted_from/>
+        <source>baac01f01b82a110bd698489cc4bcbc3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-10 10:12:05</sys_created_on>
+        <sys_id>2dc1ffe647862110f2895882e36d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1876aa6c0b90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-10 10:12:05</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>65c1ffe66586211065e6b3540bfa4ffe</update_guid>
+        <update_guid_history>65c1ffe66586211065e6b3540bfa4ffe:-145380265,61c1ffe6e4862110b3fe9ee5ae8824fd:-1961755251</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-12 08:23:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>264ddd9c954a479092273e1ed826c900</sys_id>
+        <sys_metadata>94c1bfe6858621102857d3805d154aa3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_scope_delete display_value="">041178da0e8f4478806ef0e463979040</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_94c1bfe6858621102857d3805d154aa3</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_94c1bfe6858621102857d3805d154aa3">2dc1ffe647862110f2895882e36d43fe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 08:23:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

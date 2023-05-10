@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-04-12 06:45:44</sys_created_on>
+        <sys_id>6eb5111f47066110f2895882e36d4395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1013585_cms.accounting team</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_security_acl/>
+        <sys_update_name>sys_security_acl_role_6eb5111f47066110f2895882e36d4395</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-04-12 06:45:44</sys_updated_on>
+        <sys_user_role display_value="x_1013585_cms.accounting team" name="x_1013585_cms.accounting team">a73e01f01b82a110bd698489cc4bcbf5</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

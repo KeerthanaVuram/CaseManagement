@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Request_Details">67a1aa6e47422110f2895882e36d433d</ais_search_source>
+        <label>Request_Details</label>
+        <name>Request_Details</name>
+        <order>100</order>
+        <search_context_config display_value="Case Management System AI Search Configuration">a1a1e66e39422110d1d2b45cf450de4d</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-10 04:22:09</sys_created_on>
+        <sys_id>27a1aa6e47422110f2895882e36d4358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request_Details</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_update_name>sys_search_filter_27a1aa6e47422110f2895882e36d4358</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-10 04:22:09</sys_updated_on>
+    </sys_search_filter>
+</record_update>

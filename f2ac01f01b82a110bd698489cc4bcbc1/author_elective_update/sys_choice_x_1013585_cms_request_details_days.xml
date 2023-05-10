@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="days" table="x_1013585_cms_request_details" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>days</element>
+            <name>x_1013585_cms_request_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-04 17:30:58</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>days</sys_name>
+            <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+            <sys_update_name>sys_choice_x_1013585_cms_request_details_days</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-04 17:30:58</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>days</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sunday</label>
+            <language>en</language>
+            <name>x_1013585_cms_request_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-04 17:54:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee222efc1b86a110bd698489cc4bcbec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-04 17:54:54</sys_updated_on>
+            <value>sunday</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>days</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monday</label>
+            <language>en</language>
+            <name>x_1013585_cms_request_details</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-04 17:54:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6222efc1b86a110bd698489cc4bcbee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-04 17:54:54</sys_updated_on>
+            <value>monday</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>days</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tuesday</label>
+            <language>en</language>
+            <name>x_1013585_cms_request_details</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-04 17:54:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>26222efc1b86a110bd698489cc4bcbef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-04 17:54:54</sys_updated_on>
+            <value>tuesday</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>days</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wednesday</label>
+            <language>en</language>
+            <name>x_1013585_cms_request_details</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-04 17:54:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a2222efc1b86a110bd698489cc4bcbf0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-04 17:54:54</sys_updated_on>
+            <value>wednesday</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>days</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Thursday</label>
+            <language>en</language>
+            <name>x_1013585_cms_request_details</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-04 17:54:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>22222efc1b86a110bd698489cc4bcbf1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-04 17:54:54</sys_updated_on>
+            <value>thursday</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>days</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Friday</label>
+            <language>en</language>
+            <name>x_1013585_cms_request_details</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-04 17:54:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae222efc1b86a110bd698489cc4bcbf1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-04 17:54:54</sys_updated_on>
+            <value>friday</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>days</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Saturday</label>
+            <language>en</language>
+            <name>x_1013585_cms_request_details</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-04 17:54:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e222efc1b86a110bd698489cc4bcbf2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-04 17:54:54</sys_updated_on>
+            <value>saturday</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

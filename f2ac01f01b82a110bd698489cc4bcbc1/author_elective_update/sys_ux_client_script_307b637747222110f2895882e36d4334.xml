@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Request Info default">7c7b637747222110f2895882e36d4331</macroponent>
+        <name>list_nav/NODE__isHidden</name>
+        <preset/>
+        <required_translations/>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {any} params.imports
+  */
+function evaluateProperty({api}) {
+	return !api.state.listMenuOpen;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 03:28:16</sys_created_on>
+        <sys_id>307b637747222110f2895882e36d4334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>list_nav/NODE__isHidden</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_update_name>sys_ux_client_script_307b637747222110f2895882e36d4334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 03:28:16</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</application>
+        <file_path/>
+        <instance_id>cb0a41cddbe16d504d2bac44d4961989</instance_id>
+        <instance_name>dev163237</instance_name>
+        <name>sys_ux_client_script_307b637747222110f2895882e36d4334</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Request Info default"&gt;7c7b637747222110f2895882e36d4331&lt;/macroponent&gt;&lt;name&gt;list_nav/NODE__isHidden&lt;/name&gt;&lt;preset/&gt;&lt;required_translations/&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {any} params.imports
+  */
+function evaluateProperty({api}) {
+	return !api.state.listMenuOpen;
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-05-09 03:28:16&lt;/sys_created_on&gt;&lt;sys_id&gt;307b637747222110f2895882e36d4334&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;list_nav/NODE__isHidden&lt;/sys_name&gt;&lt;sys_package display_value="Case Management System" source="x_1013585_cms"&gt;f2ac01f01b82a110bd698489cc4bcbc1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Case Management System"&gt;f2ac01f01b82a110bd698489cc4bcbc1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_307b637747222110f2895882e36d4334&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-05-09 03:28:16&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1900185764</payload_hash>
+        <record_name>list_nav/NODE__isHidden</record_name>
+        <reverted_from/>
+        <source>baac01f01b82a110bd698489cc4bcbc3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 03:28:18</sys_created_on>
+        <sys_id>a97b637747222110f2895882e36d43d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187fe8d7efe0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 03:28:18</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>a17b63776a222110cee2504b810537d4</update_guid>
+        <update_guid_history>a17b63776a222110cee2504b810537d4:-1900185764,e97b63772e222110307fcd521f029bc6:1839347998,4d7b63774f2221107ce0d81a0ec4663a:-1900185764,307b637706222110433f5b99cd392936:202735708</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 03:28:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>4dcff876d57b4d0e9de5c0fe7ee32251</sys_id>
+        <sys_metadata>307b637747222110f2895882e36d4334</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>list_nav/NODE__isHidden</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_scope_delete display_value="">041178da0e8f4478806ef0e463979040</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_307b637747222110f2895882e36d4334</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_307b637747222110f2895882e36d4334">a97b637747222110f2895882e36d43d4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 03:28:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

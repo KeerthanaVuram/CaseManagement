@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_template">
+    <sys_uib_template action="INSERT_OR_UPDATE">
+        <associated_types>f198e5625311101017caddeeff7b120d,d5d732935301101017caddeeff7b12b3</associated_types>
+        <description/>
+        <image display_value="ui-builder-templates-right-sidebar.svg">89ff424877311010d99bbc3f6810614e</image>
+        <label>Portal Main Content with Right Rail</label>
+        <macroponent display_value="Fixed Width Two-One">c236f5a33a0221109309ced96aec1107</macroponent>
+        <macroponent_config/>
+        <optional_properties/>
+        <order>0</order>
+        <required_properties/>
+        <sys_class_name>sys_uib_template</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-04-13 03:46:13</sys_created_on>
+        <sys_id>0a36f5a3ec0221106be61312ab545f07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Portal Main Content with Right Rail</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_update_name>sys_uib_template_0a36f5a3ec0221106be61312ab545f07</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-04-13 03:46:13</sys_updated_on>
+        <type/>
+    </sys_uib_template>
+</record_update>

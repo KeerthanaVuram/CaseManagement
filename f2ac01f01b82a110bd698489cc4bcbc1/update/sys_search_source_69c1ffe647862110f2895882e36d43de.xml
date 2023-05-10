@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1013585_cms_request_details">active=true</condition>
+        <group/>
+        <name>Case Management System - x_1013585_cms_request_det</name>
+        <roles/>
+        <source_table>x_1013585_cms_request_details</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-10 10:12:05</sys_created_on>
+        <sys_id>69c1ffe647862110f2895882e36d43de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Case Management System - x_1013585_cms_request_det</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_update_name>sys_search_source_69c1ffe647862110f2895882e36d43de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-10 10:12:05</sys_updated_on>
+    </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=69c1ffe647862110f2895882e36d43de"/>
+</record_update>

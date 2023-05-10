@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3d67d93c1b82a110bd698489cc4bcbfb" label="Functional Team Details" max_length="40" name="x_1013585_cms_functional_team_details" text_index="true" type="collection">
+        <element label="Action" max_length="40" name="action" type="boolean"/>
+        <element label="Due Date" max_length="40" name="due_date" type="glide_date"/>
+        <element label="Functional Group" max_length="32" name="functional_group" reference="sys_user_group" type="reference"/>
+        <element choice="3" label="Functional Team" max_length="40" name="functional_team" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Investor Administration" sequence="0" value="investor_administration"/>
+                <element inactive_on_update="false" label="Marketing Reporting" sequence="1" value="marketing_reporting"/>
+                <element inactive_on_update="false" label="Tax" sequence="2" value="tax"/>
+                <element inactive_on_update="false" label="Treasury" sequence="3" value="treasury"/>
+                <element inactive_on_update="false" label="Real Assets" sequence="4" value="real_assets"/>
+            </choice>
+        </element>
+        <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Request Id" max_length="32" name="request_id" reference="x_1013585_cms_request_details" type="reference"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="functional_group"/>
+        </index>
+        <index name="index2">
+            <element name="request_id"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Case Management System">25a1e66e1d4221101b1ff1f3ea767b4c</page>
+        <required_translations>[ {
+  "message" : "New Functional Team Details",
+  "comment" : ""
+}, {
+  "message" : "New Incident",
+  "comment" : ""
+}, {
+  "message" : "New Interaction",
+  "comment" : ""
+}, {
+  "message" : "New Request_Details",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-10 04:22:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>a5a1e66e2242211000b313304e9e114f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_update_name>sys_ux_page_property_a5a1e66e2242211000b313304e9e114f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-10 04:22:09</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1013585_cms.25a1e66e1d4221101b1ff1f3ea767b4c.root.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Interaction"},"routeInfo":{"route":"record","fields":{"table":"interaction","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"interaction","canCreate":true}}},{"label":{"translatable":true,"message":"New Incident"},"routeInfo":{"route":"record","fields":{"table":"incident","sysId":"-1"},"multiInstField":"sysId"}},{"label":{"translatable":true,"message":"New Functional Team Details"},"routeInfo":{"route":"record","fields":{"table":"x_1013585_cms_functional_team_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1013585_cms_functional_team_details","canCreate":true}}},{"label":{"translatable":true,"message":"New Request_Details"},"routeInfo":{"route":"record","fields":{"table":"x_1013585_cms_request_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1013585_cms_request_details","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=a5a1e66e2242211000b313304e9e114f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</application>
+        <file_path/>
+        <instance_id>cb0a41cddbe16d504d2bac44d4961989</instance_id>
+        <instance_name>dev163237</instance_name>
+        <name>sys_ux_page_property_a5a1e66e2242211000b313304e9e114f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Tabs Configuration</description><name>chrome_tab</name><page display_value="Case Management System">25a1e66e1d4221101b1ff1f3ea767b4c</page><required_translations>[ {
+  "message" : "New Functional Team Details",
+  "comment" : ""
+}, {
+  "message" : "New Incident",
+  "comment" : ""
+}, {
+  "message" : "New Interaction",
+  "comment" : ""
+}, {
+  "message" : "New Request_Details",
+  "comment" : ""
+} ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-10 04:22:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>a5a1e66e2242211000b313304e9e114f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>chrome_tab</sys_name><sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package><sys_policy/><sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope><sys_update_name>sys_ux_page_property_a5a1e66e2242211000b313304e9e114f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-10 04:22:09</sys_updated_on><type>json</type><unique_name>x_1013585_cms.25a1e66e1d4221101b1ff1f3ea767b4c.root.chrome_tab</unique_name><value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Interaction"},"routeInfo":{"route":"record","fields":{"table":"interaction","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"interaction","canCreate":true}}},{"label":{"translatable":true,"message":"New Incident"},"routeInfo":{"route":"record","fields":{"table":"incident","sysId":"-1"},"multiInstField":"sysId"}},{"label":{"translatable":true,"message":"New Functional Team Details"},"routeInfo":{"route":"record","fields":{"table":"x_1013585_cms_functional_team_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1013585_cms_functional_team_details","canCreate":true}}},{"label":{"translatable":true,"message":"New Request_Details"},"routeInfo":{"route":"record","fields":{"table":"x_1013585_cms_request_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1013585_cms_request_details","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=a5a1e66e2242211000b313304e9e114f"/></record_update>]]></payload>
+        <payload_hash>-412721670</payload_hash>
+        <record_name>chrome_tab</record_name>
+        <reverted_from/>
+        <source>baac01f01b82a110bd698489cc4bcbc3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-10 04:22:09</sys_created_on>
+        <sys_id>d3a1aa6e47422110f2895882e36d4307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18769665ef40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-10 04:22:09</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>dba1aa6ef54221101ad9587c1631a706</update_guid>
+        <update_guid_history>dba1aa6ef54221101ad9587c1631a706:-412721670,53a1aa6ecd422110893e2b1ae4212705:1096244940</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-10 10:10:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>62c43bad18cb4ad0af4c35e780049100</sys_id>
+        <sys_metadata>a5a1e66e2242211000b313304e9e114f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_scope_delete display_value="">041178da0e8f4478806ef0e463979040</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_a5a1e66e2242211000b313304e9e114f</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_a5a1e66e2242211000b313304e9e114f">d3a1aa6e47422110f2895882e36d4307</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-10 10:10:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

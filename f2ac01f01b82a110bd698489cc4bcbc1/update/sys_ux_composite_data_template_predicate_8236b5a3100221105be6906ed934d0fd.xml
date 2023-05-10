@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="kb_knowledge">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>short_description,author.avatar,author.name,description,sys_view_count,rating</field_list>
+        <name>Popular articles predicate</name>
+        <order/>
+        <predicate_bundle display_value="Popular articles bundle">4636b5a321022110c6099810603a68fe</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-04-13 03:46:14</sys_created_on>
+        <sys_id>8236b5a3100221105be6906ed934d0fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Popular articles predicate</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_8236b5a3100221105be6906ed934d0fd</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-04-13 03:46:14</sys_updated_on>
+        <table>kb_knowledge</table>
+        <ux_template display_value="Popular articles template">4a36b5a3b60221103c9ff0ef89646afd</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

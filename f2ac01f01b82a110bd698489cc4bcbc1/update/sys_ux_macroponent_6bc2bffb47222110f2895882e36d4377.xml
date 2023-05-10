@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "dashboard_1",
+  "elementLabel" : "Dashboard 1",
+  "propertyValues" : {
+    "userInfo" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "user" ],
+        "category" : "session"
+      }
+    },
+    "hideShareButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "editMode" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "edit" ],
+        "category" : "props"
+      }
+    },
+    "dashboardSysId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "sysId" ],
+        "category" : "props"
+      }
+    },
+    "hideCreateNewButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideEditButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "defaultDashboard" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "defaultDrilldowns" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideDashboardPicker" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    }
+  },
+  "eventMappings" : [ {
+    "eventMappingId" : "claagnddeeoqaacciirddwggyggoqshhikii",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_dashboard.DASHBOARD_DESIGNER#REDIRECT_DASHBOARDS_OVERVIEW",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_dashboard.DASHBOARD_DESIGNER#REDIRECT_DASHBOARDS_OVERVIEW",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "648b825fb7030110ac1b9f78ce11a96f"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "claagnddeeoqaacciisddwggyddkfaaffxig",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "slot" : null,
+  "definition" : {
+    "id" : "f552e6a932780394b6f06c14071aa115",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : {
+    "height" : ""
+  }
+}, {
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
+  "propertyValues" : {
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "breadcrumbs_1",
+      "elementLabel" : "Breadcrumbs 1",
+      "propertyValues" : {
+        "overflow" : {
+          "type" : "JSON_LITERAL",
+          "value" : "collapse"
+        },
+        "delimiter" : {
+          "type" : "JSON_LITERAL",
+          "value" : "chevron"
+        },
+        "items" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "code" : null,
+                  "message" : "First Item",
+                  "comment" : ""
+                }
+              },
+              "href" : {
+                "type" : "JSON_LITERAL",
+                "value" : "/x/1013585/case-management-system/landing"
+              },
+              "icon" : {
+                "type" : "JSON_LITERAL",
+                "value" : "home-outline"
+              },
+              "hideLabel" : {
+                "type" : "JSON_LITERAL",
+                "value" : true
+              }
+            }
+          }, {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "code" : null,
+                  "message" : "Records",
+                  "comment" : ""
+                }
+              },
+              "href" : {
+                "type" : "JSON_LITERAL",
+                "value" : "/x/1013585/case-management-system/request-record"
+              }
+            }
+          }, {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "code" : null,
+                  "message" : "Reports",
+                  "comment" : ""
+                }
+              },
+              "href" : {
+                "type" : "JSON_LITERAL",
+                "value" : "#"
+              }
+            }
+          } ]
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "9c2e48402c6c25d281faeb20637f6106",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"breadcrumbs_1","styles":{}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : {
+    "width" : "100%"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <description/>
+        <dispatched_events>166595d6b70201109fda8079ce11a904</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"element_id":"container_1","styles":{}},{"element_id":"dashboard_1","styles":{}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"flex-direction":"column","height":"100%"},
+    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+    "type" : "flex"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Reports default</name>
+        <output_prop_mapping/>
+        <props>[ {
+  "name" : "edit",
+  "label" : "Edit",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : "",
+  "readOnly" : true,
+  "selectable" : false,
+  "disabled" : false
+}, {
+  "name" : "sysId",
+  "label" : "sysId",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : "",
+  "readOnly" : true,
+  "selectable" : false,
+  "disabled" : false
+} ]</props>
+        <required_translations>[ {
+  "message" : "First Item",
+  "comment" : ""
+}, {
+  "message" : "Records",
+  "comment" : ""
+}, {
+  "message" : "Reports",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 04:00:23</sys_created_on>
+        <sys_id>6bc2bffb47222110f2895882e36d4377</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Reports default</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_update_name>sys_ux_macroponent_6bc2bffb47222110f2895882e36d4377</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 04:13:52</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=6bc2bffb47222110f2895882e36d4377"/>
+</record_update>

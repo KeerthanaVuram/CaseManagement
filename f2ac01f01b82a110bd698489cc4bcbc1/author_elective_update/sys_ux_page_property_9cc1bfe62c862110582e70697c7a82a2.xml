@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Ribbon Config ID</description>
+        <name>ribbonConfigId</name>
+        <page display_value="">94c1bfe67e86211020292e99e0e6a2a0</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-10 10:12:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>9cc1bfe62c862110582e70697c7a82a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ribbonConfigId</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_update_name>sys_ux_page_property_9cc1bfe62c862110582e70697c7a82a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-10 10:12:02</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1013585_cms.94c1bfe67e86211020292e99e0e6a2a0.root.ribbonConfigId</unique_name>
+        <value>d0c1bfe636862110c5962751e986d69f</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</application>
+        <file_path/>
+        <instance_id>cb0a41cddbe16d504d2bac44d4961989</instance_id>
+        <instance_name>dev163237</instance_name>
+        <name>sys_ux_page_property_9cc1bfe62c862110582e70697c7a82a2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Ribbon Config ID</description><name>ribbonConfigId</name><page display_value="">94c1bfe67e86211020292e99e0e6a2a0</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-10 10:12:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>9cc1bfe62c862110582e70697c7a82a2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ribbonConfigId</sys_name><sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package><sys_policy/><sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope><sys_update_name>sys_ux_page_property_9cc1bfe62c862110582e70697c7a82a2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-10 10:12:02</sys_updated_on><type>string</type><unique_name>x_1013585_cms.94c1bfe67e86211020292e99e0e6a2a0.root.ribbonConfigId</unique_name><value>d0c1bfe636862110c5962751e986d69f</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>1237706784</payload_hash>
+        <record_name>ribbonConfigId</record_name>
+        <reverted_from/>
+        <source>c7a3e1011b2121105a7c8489cc4bcb08</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-03-11 11:28:58</sys_created_on>
+        <sys_id>b10ced9347866110f2895882e36d438e</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>186d06e58900000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>710ced93088661105b2d80cfcd2d268e</update_guid>
+        <update_guid_history>710ced93088661105b2d80cfcd2d268e:1237706784</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-12 08:23:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>816afef2ff5f4992843b042adf3ac384</sys_id>
+        <sys_metadata>9cc1bfe62c862110582e70697c7a82a2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ribbonConfigId</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_scope_delete display_value="">041178da0e8f4478806ef0e463979040</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_9cc1bfe62c862110582e70697c7a82a2</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_9cc1bfe62c862110582e70697c7a82a2">b10ced9347866110f2895882e36d438e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 08:23:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

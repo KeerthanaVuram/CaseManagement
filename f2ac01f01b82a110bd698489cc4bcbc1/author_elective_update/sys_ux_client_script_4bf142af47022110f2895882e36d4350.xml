@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Landing Page">8636f5a3290221104cd651dc89ab4b06</macroponent>
+        <name>data_row_1/data</name>
+        <preset/>
+        <required_translations/>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.imports
+ */
+function evaluateProperty({
+    api
+}) {
+    if (api.data.evam_data_sendback_request&& api.data.evam_data_sendback_request.output) {
+        var output = api.data.evam_data_sendback_request.output;
+        var singlerowoutput = output.items.splice(0, 4);
+        output.items = singlerowoutput;
+        return output;
+    } else
+        return '';
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-13 04:37:36</sys_created_on>
+        <sys_id>4bf142af47022110f2895882e36d4350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>data_row_1/data</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_update_name>sys_ux_client_script_4bf142af47022110f2895882e36d4350</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-13 04:37:36</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</application>
+        <file_path/>
+        <instance_id>cb0a41cddbe16d504d2bac44d4961989</instance_id>
+        <instance_name>dev163237</instance_name>
+        <name>sys_ux_client_script_4bf142af47022110f2895882e36d4350</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Landing Page"&gt;8636f5a3290221104cd651dc89ab4b06&lt;/macroponent&gt;&lt;name&gt;data_row_1/data&lt;/name&gt;&lt;preset/&gt;&lt;required_translations/&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.imports
+ */
+function evaluateProperty({
+    api
+}) {
+    if (api.data.evam_data_sendback_request&amp;&amp; api.data.evam_data_sendback_request.output) {
+        var output = api.data.evam_data_sendback_request.output;
+        var singlerowoutput = output.items.splice(0, 4);
+        output.items = singlerowoutput;
+        return output;
+    } else
+        return '';
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-13 04:37:36&lt;/sys_created_on&gt;&lt;sys_id&gt;4bf142af47022110f2895882e36d4350&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;data_row_1/data&lt;/sys_name&gt;&lt;sys_package display_value="Case Management System" source="x_1013585_cms"&gt;f2ac01f01b82a110bd698489cc4bcbc1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Case Management System"&gt;f2ac01f01b82a110bd698489cc4bcbc1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_4bf142af47022110f2895882e36d4350&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-13 04:37:36&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>852857073</payload_hash>
+        <record_name>data_row_1/data</record_name>
+        <reverted_from/>
+        <source>baac01f01b82a110bd698489cc4bcbc3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-13 04:37:37</sys_created_on>
+        <sys_id>4ff142af47022110f2895882e36d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18778e79a890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-13 04:37:37</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>c7f142aff8022110838ac1ea79795864</update_guid>
+        <update_guid_history>c7f142aff8022110838ac1ea79795864:852857073</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 05:55:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>171bf9297a594ce1acc9b7733d845c99</sys_id>
+        <sys_metadata>4bf142af47022110f2895882e36d4350</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>data_row_1/data</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_scope_delete display_value="">041178da0e8f4478806ef0e463979040</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_4bf142af47022110f2895882e36d4350</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_4bf142af47022110f2895882e36d4350">4ff142af47022110f2895882e36d4364</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 05:55:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

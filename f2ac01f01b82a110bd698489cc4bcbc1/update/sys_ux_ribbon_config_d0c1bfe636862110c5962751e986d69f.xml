@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_ribbon_config">
+    <sys_ux_ribbon_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Case Management System Ribbon Config</description>
+        <name>Case Management System Ribbon Config</name>
+        <sys_class_name>sys_ux_ribbon_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-10 10:12:02</sys_created_on>
+        <sys_id>d0c1bfe636862110c5962751e986d69f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Case Management System Ribbon Config</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_update_name>sys_ux_ribbon_config_d0c1bfe636862110c5962751e986d69f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-10 10:12:02</sys_updated_on>
+    </sys_ux_ribbon_config>
+</record_update>

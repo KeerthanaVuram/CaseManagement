@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "breadcrumbs_1",
+  "elementLabel" : "Breadcrumbs 1",
+  "propertyValues" : {
+    "overflow" : {
+      "type" : "JSON_LITERAL",
+      "value" : "collapse"
+    },
+    "delimiter" : {
+      "type" : "JSON_LITERAL",
+      "value" : "chevron"
+    },
+    "items" : {
+      "type" : "LIST_CONTAINER",
+      "container" : [ {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "label" : {
+            "type" : "TRANSLATION_LITERAL",
+            "value" : {
+              "code" : null,
+              "message" : "First Item",
+              "comment" : ""
+            }
+          },
+          "href" : {
+            "type" : "JSON_LITERAL",
+            "value" : "#"
+          },
+          "icon" : {
+            "type" : "JSON_LITERAL",
+            "value" : "home-outline"
+          },
+          "hideLabel" : {
+            "type" : "JSON_LITERAL",
+            "value" : true
+          }
+        }
+      }, {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "label" : {
+            "type" : "TRANSLATION_LITERAL",
+            "value" : {
+              "code" : null,
+              "message" : "Records",
+              "comment" : ""
+            }
+          },
+          "href" : {
+            "type" : "JSON_LITERAL",
+            "value" : "#"
+          }
+        }
+      }, {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "label" : {
+            "type" : "TRANSLATION_LITERAL",
+            "value" : {
+              "code" : null,
+              "message" : "Report",
+              "comment" : ""
+            }
+          },
+          "href" : {
+            "type" : "JSON_LITERAL",
+            "value" : "#"
+          }
+        }
+      } ]
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "9c2e48402c6c25d281faeb20637f6106",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : { }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "367f89e30b102010a8b1c96237673a85",
+    "type" : "COMPOSITE"
+  },
+  "dependencies" : { },
+  "elementId" : "dynamic_routing_search_result",
+  "elementLabel" : "Dynamic Routing Search Result",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "routeConfigId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "routeConfigId" ],
+        "category" : "app"
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <description/>
+        <dispatched_events>83e447ee0b621010a8b1c96237673a8d,0fe447ee0b621010a8b1c96237673a92,5fe447ee0b621010a8b1c96237673ab6</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"styles":{},"rules":{},"element_id":"breadcrumbs_1"}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"flex-direction":"column"},
+    "templateId" : null,
+    "type" : "flex"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Request-record default - 3.0.0 preview.</name>
+        <output_prop_mapping/>
+        <props>[ {
+  "name" : "searchTerm",
+  "label" : null,
+  "fieldType" : null,
+  "typeMetadata" : null,
+  "valueType" : null,
+  "mandatory" : true,
+  "defaultValue" : null,
+  "description" : null,
+  "readOnly" : false,
+  "selectable" : false,
+  "disabled" : false
+}, {
+  "name" : "globalSearchViewConfigId",
+  "label" : null,
+  "fieldType" : null,
+  "typeMetadata" : null,
+  "valueType" : null,
+  "mandatory" : true,
+  "defaultValue" : null,
+  "description" : null,
+  "readOnly" : false,
+  "selectable" : false,
+  "disabled" : false
+} ]</props>
+        <required_translations>[ {
+  "message" : "First Item",
+  "comment" : ""
+}, {
+  "message" : "Records",
+  "comment" : ""
+}, {
+  "message" : "Report",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{
+  "bare" : true
+}</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 03:32:46</sys_created_on>
+        <sys_id>8b7c2b7747222110f2895882e36d43b5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Request-record default - 3.0.0 preview.</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_update_name>sys_ux_macroponent_8b7c2b7747222110f2895882e36d43b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 03:32:48</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=8b7c2b7747222110f2895882e36d43b5"/>
+</record_update>

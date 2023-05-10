@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="DELETE">
+        <description/>
+        <name>Task rejected</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-04-12 06:45:37</sys_created_on>
+        <sys_id>77a51ddbdd0661102696b8f163f6793d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task rejected</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_update_name>sys_ux_screen_type_77a51ddbdd0661102696b8f163f6793d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-04-12 06:45:37</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</application>
+        <file_path/>
+        <instance_id>cb0a41cddbe16d504d2bac44d4961989</instance_id>
+        <instance_name>dev163237</instance_name>
+        <name>sys_ux_screen_type_77a51ddbdd0661102696b8f163f6793d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type"><sys_ux_screen_type action="INSERT_OR_UPDATE"><description/><name>Task rejected</name><sys_class_name>sys_ux_screen_type</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-04-12 06:45:37</sys_created_on><sys_id>77a51ddbdd0661102696b8f163f6793d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Task rejected</sys_name><sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package><sys_policy/><sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope><sys_update_name>sys_ux_screen_type_77a51ddbdd0661102696b8f163f6793d</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-04-12 06:45:37</sys_updated_on></sys_ux_screen_type></record_update>]]></payload>
+        <payload_hash>272004389</payload_hash>
+        <record_name>Task rejected</record_name>
+        <reverted_from/>
+        <source>c7a3e1011b2121105a7c8489cc4bcb08</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-03-11 11:28:58</sys_created_on>
+        <sys_id>180dedd347866110f2895882e36d43d5</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>186d06e58900000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Screen Collection</type>
+        <update_guid>d40dedd3cf8661109ba1faa737b2f3d5</update_guid>
+        <update_guid_history>d40dedd3cf8661109ba1faa737b2f3d5:272004389</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-12 08:27:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen_type">sys_ux_screen_type</sys_db_object>
+        <sys_id>35e5e86607924b0fa3b840ffa922b6a1</sys_id>
+        <sys_metadata>77a51ddbdd0661102696b8f163f6793d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task rejected</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_scope_delete display_value="">041178da0e8f4478806ef0e463979040</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_type_77a51ddbdd0661102696b8f163f6793d</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_type_77a51ddbdd0661102696b8f163f6793d">180dedd347866110f2895882e36d43d5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 08:27:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

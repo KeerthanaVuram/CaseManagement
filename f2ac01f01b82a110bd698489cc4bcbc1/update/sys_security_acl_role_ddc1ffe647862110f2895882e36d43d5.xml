@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-10 10:12:05</sys_created_on>
+        <sys_id>ddc1ffe647862110f2895882e36d43d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.1013585.case-management-system.*.x_1013585_cms.Tax</sys_name>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_security_acl display_value="x.1013585.case-management-system.*">2da1e66e2f42211086a68fd92cca395d</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ddc1ffe647862110f2895882e36d43d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-10 10:12:05</sys_updated_on>
+        <sys_user_role display_value="x_1013585_cms.Tax" name="x_1013585_cms.Tax">caf231591b022510bd698489cc4bcba4</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
