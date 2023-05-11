@@ -11,7 +11,7 @@
       "type" : "TRANSLATION_LITERAL",
       "value" : {
         "code" : null,
-        "message" : "VIEW REQUEST",
+        "message" : "VIEW  RECORDS",
         "comment" : ""
       }
     },
@@ -213,7 +213,7 @@
       "value" : false
     }
   },
-  "readEvaluationMode" : "EAGER"
+  "readEvaluationMode" : "EXPLICIT"
 } ]</data>
         <description/>
         <dispatched_events>bcda0d7f47122110f2895882e36d43c2</dispatched_events>
@@ -259,7 +259,7 @@
   "message" : "RETURN HOME",
   "comment" : ""
 }, {
-  "message" : "VIEW REQUEST",
+  "message" : "VIEW  RECORDS",
   "comment" : ""
 }, {
   "message" : "You have submitted this request for approval",
@@ -274,14 +274,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-20 05:17:19</sys_created_on>
         <sys_id>383ecef947122110f2895882e36d43ca</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Submission Page default</sys_name>
         <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
         <sys_update_name>sys_ux_macroponent_383ecef947122110f2895882e36d43ca</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-26 06:20:23</sys_updated_on>
+        <sys_updated_on>2023-05-11 03:38:21</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=383ecef947122110f2895882e36d43ca"/>
 </record_update>
