@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_1013585_cms.Audience for app case-management-system-workspace</api_name>
+        <description/>
+        <name>Audience for app case-management-system-workspace</name>
+        <roles>b73ec5341b82a110bd698489cc4bcba2,a73e01f01b82a110bd698489cc4bcbf5,7b3e01f01b82a110bd698489cc4bcbf9,5f3ec9701b82a110bd698489cc4bcb71,7b3ec5341b82a110bd698489cc4bcba6,e78275591b022510bd698489cc4bcb77,a6e2b5591b022510bd698489cc4bcb87,611371591b022510bd698489cc4bcb6d,caf231591b022510bd698489cc4bcba4,2d03b1991b022510bd698489cc4bcb5f</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-15 10:34:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a0a6480247b62110f2895882e36d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app case-management-system-workspace</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_update_name>sys_ux_applicability_a0a6480247b62110f2895882e36d43b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-15 10:34:52</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

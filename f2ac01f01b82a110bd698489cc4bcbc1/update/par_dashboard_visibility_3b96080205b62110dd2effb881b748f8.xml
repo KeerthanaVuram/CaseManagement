@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="Case Management System Workspace">73960802d9b62110d40fe90a641051f4</dashboard>
+        <experience display_value="Case Management System Workspace">fb96080204b62110a02ba904f7a6c0f4</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-15 10:34:49</sys_created_on>
+        <sys_id>3b96080205b62110dd2effb881b748f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Case Management System" source="x_1013585_cms">f2ac01f01b82a110bd698489cc4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case Management System">f2ac01f01b82a110bd698489cc4bcbc1</sys_scope>
+        <sys_update_name>par_dashboard_visibility_3b96080205b62110dd2effb881b748f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-15 10:34:49</sys_updated_on>
+    </par_dashboard_visibility>
+</record_update>

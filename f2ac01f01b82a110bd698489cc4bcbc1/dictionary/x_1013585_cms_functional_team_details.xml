@@ -15,7 +15,7 @@
         <element label="Is Active" max_length="40" name="is_active" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Request Id" max_length="32" name="request_id" reference="x_1013585_cms_request_details" type="reference"/>
-        <element label="Status" max_length="40" name="status" type="string"/>
+        <element default="Submitted" label="Status" max_length="40" name="status" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
             <element name="functional_group"/>
